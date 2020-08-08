@@ -1,0 +1,106 @@
+*,
+*:after,
+*:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.fbody {
+    display: flex;
+    flex-direction: reverse-row;
+	flex-wrap: wrap;
+}
+@media only screen and (min-width : 768px) {  
+ .contact-holder {
+    text-align: center;
+    width: calc(100%/3 - 30px);
+	float: left;
+	color: #90a4ab;
+	min-width: 234px;
+    padding: 5px 9px 5px;
+    margin: 20px 15px 39px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.1), 0px 3px 0px #448aff, inset 0px 1px 0px #fff, inset 0px -1px 0px rgba(0, 0, 0, 0.4), 0px 5px 9px rgba(0, 0, 0, 0.4);
+ }
+ .contact-image-holder {
+    margin-top: -46px;
+    position: relative;
+    left: 50%;
+	margin-left: -46px;
+    padding: 6px;
+    width: 92px;
+    height: 92px;
+    border-radius: 50%;
+    border: 1px dashed #448aff;
+    box-shadow: 0px 3px 11px rgba(0, 0, 0, 0.4);
+ }
+ .contact-image-holder img {
+    border-radius: 50%;
+    width: 100px;
+    border: 5px solid #fdfdfd;
+    box-shadow: 0px 3px 11px rgba(0, 0, 0, 0.4);
+ }
+ .fcontent {
+    margin-top: 15px;
+	margin-bottom: 15px;
+    min-height: 56px;
+ }
+}
+@media only screen and (max-width : 767px) {  
+ .contact-holder {
+	font-size: 13px;
+    text-align: center;
+    width: calc(100%/2 - 23px);
+	float: left;
+    color: #90a4ab;
+	max-width: 260px;
+    padding: 3px 2px 1px;
+    margin: 15px 10px 29px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.1), 0px 2px 0px #448aff, inset 0px 1px 0px #fff, inset 0px -1px 0px rgba(0, 0, 0, 0.4), 0px 5px 9px rgba(0, 0, 0, 0.4);
+ }
+ .contact-image-holder {
+    margin-top: -30px;
+    position: relative;
+    left: 50%;
+	margin-left: -30px;
+    padding: 3px;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    border: 1px dashed #448aff;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.4);
+ }
+ .contact-image-holder img {
+    border-radius: 50%;
+    width: 77px;
+    border: 5px solid #fdfdfd;
+    box-shadow: 0px 3px 11px rgba(0, 0, 0, 0.4);
+ }
+ .fcontent {
+    margin-top: 11px;
+	margin-bottom: 5px;
+    min-height: 55px;
+ }
+}
+
+
+.bottom {
+    line-height: 1px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.bottom p::before,
+.bottom p::after {
+    display: inline-block;
+    content: "";
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    margin: 0px 3px 0px;
+    background: rgba(0, 0, 0, 0.05);
+    box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.4);
+    border-bottom: 1px solid #fff;
+}
