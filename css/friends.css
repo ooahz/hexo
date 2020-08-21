@@ -1,3 +1,4 @@
+
 *,
 *:after,
 *:before {
@@ -10,6 +11,7 @@
     flex-direction: reverse-row;
 	flex-wrap: wrap;
 }
+
 @media only screen and (min-width : 768px) {  
  .contact-holder {
     text-align: center;
@@ -17,12 +19,13 @@
 	float: left;
 	color: #90a4ab;
 	min-width: 234px;
-    padding: 5px 9px 5px;
+    padding: 3px 7px 3px;
     margin: 20px 15px 39px;
     background: rgba(255, 255, 255, 0.8);
     border-radius: 10px;
     box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.1), 0px 3px 0px #448aff, inset 0px 1px 0px #fff, inset 0px -1px 0px rgba(0, 0, 0, 0.4), 0px 5px 9px rgba(0, 0, 0, 0.4);
  }
+
  .contact-image-holder {
     margin-top: -46px;
     position: relative;
@@ -44,7 +47,7 @@
  .fcontent {
     margin-top: 15px;
 	margin-bottom: 15px;
-    min-height: 56px;
+    min-height: 55px;
  }
 }
 @media only screen and (max-width : 767px) {  
@@ -96,11 +99,17 @@
 .bottom p::after {
     display: inline-block;
     content: "";
-    width: 6px;
-    height: 6px;
+    width: 8px;
+    height: 8px;
     border-radius: 50%;
-    margin: 0px 3px 0px;
+    margin: 0px 5px;
     background: rgba(0, 0, 0, 0.05);
     box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.4);
     border-bottom: 1px solid #fff;
+}
+
+ .fbody div:hover {
+	-webkit-transform: translateY(-6px);
+	transform: translateY(-6px);
+	box-shadow: 0 26px 40px -24px rgba(0,0,0,0.3);
 }
