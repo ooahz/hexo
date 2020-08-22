@@ -14,26 +14,25 @@
 
 @media only screen and (min-width : 768px) {  
  .contact-holder {
+	font-size: 13.5px;
     text-align: center;
-    width: calc(100%/3 - 30px);
+    width: calc(100%/3 - 80px);
 	float: left;
-	color: #90a4ab;
 	min-width: 234px;
-    padding: 3px 7px 3px;
-    margin: 20px 15px 39px;
+    margin: 21px 30px 39px;
     background: rgba(255, 255, 255, 0.8);
     border-radius: 10px;
     box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.1), 0px 3px 0px #448aff, inset 0px 1px 0px #fff, inset 0px -1px 0px rgba(0, 0, 0, 0.4), 0px 5px 9px rgba(0, 0, 0, 0.4);
  }
 
  .contact-image-holder {
-    margin-top: -46px;
+    margin-top: -43px;
     position: relative;
     left: 50%;
-	margin-left: -46px;
+	margin-left: -43px;
     padding: 6px;
-    width: 92px;
-    height: 92px;
+    width: 86px;
+    height: 86px;
     border-radius: 50%;
     border: 1px dashed #448aff;
     box-shadow: 0px 3px 11px rgba(0, 0, 0, 0.4);
@@ -44,22 +43,17 @@
     border: 5px solid #fdfdfd;
     box-shadow: 0px 3px 11px rgba(0, 0, 0, 0.4);
  }
- .fcontent {
-    margin-top: 15px;
-	margin-bottom: 15px;
-    min-height: 56px;
- }
+
 }
 @media only screen and (max-width : 767px) {  
  .contact-holder {
 	font-size: 13px;
     text-align: center;
-    width: calc(100%/2 - 23px);
+    width: calc(100%/2 - 14px);
 	float: left;
     color: #90a4ab;
 	max-width: 260px;
-    padding: 3px 2px 1px;
-    margin: 15px 10px 29px;
+    margin: 15px 7px 29px;
     background: rgba(255, 255, 255, 0.8);
     border-radius: 10px;
     box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.1), 0px 2px 0px #448aff, inset 0px 1px 0px #fff, inset 0px -1px 0px rgba(0, 0, 0, 0.4), 0px 5px 9px rgba(0, 0, 0, 0.4);
@@ -82,25 +76,27 @@
     border: 5px solid #fdfdfd;
     box-shadow: 0px 3px 11px rgba(0, 0, 0, 0.4);
  }
- .fcontent {
-    margin-top: 11px;
-	margin-bottom: 5px;
-    min-height: 55px;
- }
 }
-
-
+.fcontent {
+    margin: 13px 9px 7px;
+	overflow:hidden;
+	color: #90a4ab;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+}
 .bottom {
-    line-height: 1px;
     text-transform: uppercase;
     font-weight: bold;
+    color: #42aff5;
+	font-size: 14px;
+	margin-bottom: -5.5px;
 }
 .bottom p::before,
 .bottom p::after {
     display: inline-block;
     content: "";
-    width: 8px;
-    height: 8px;
+    width: 7px;
+    height: 7px;
     border-radius: 50%;
     margin: 0px 5px;
     background: rgba(0, 0, 0, 0.05);
