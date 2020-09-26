@@ -1,0 +1,7 @@
+/* 鼠标样式*/
+  * {
+      cursor: url("/blogpic/normal.cur"),auto!important
+  }
+  :active {
+      cursor: url("/blogpic/ayuda.cur"),auto!important
+  }
