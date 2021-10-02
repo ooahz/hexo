@@ -1,9 +1,12 @@
-/* 页脚透明 
-新版可直接在配置文件中设置
+/* 页脚透明 */
+
 #footer {
     background: transparent !important;
 }
-*/
+#footer:before {
+    background-color: transparent !important;
+}
+
 /*页脚自定义字段字体颜色
  也就是配置文件里的footer_custom_text 
 
