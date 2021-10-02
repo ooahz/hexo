@@ -1,16 +1,16 @@
-/* 页脚透明 */
-
+/* 页脚透明 
+新版可直接在配置文件中设置
 #footer {
     background: transparent !important;
 }
-
-/*页脚自定义字段字体颜色*/
-/* 也就是配置文件里的footer_custom_text */
+*/
+/*页脚自定义字段字体颜色
+ 也就是配置文件里的footer_custom_text 
 
 .footer_custom_text {
     color: #588fe9;
 }
-
+*/
 
 /* github标签*/
 
