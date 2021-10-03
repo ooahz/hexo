@@ -19,7 +19,7 @@
     float: left;
     min-width: 200px;
     margin: 21px 35px 39px;
-    background: var(--search-bg);
+    background: var(--card-bg);
     border-radius: 10px;
     box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.1), 0px 3px 0px var(--btn-bg), inset 0px 1px 0px #fff, inset 0px -1px 0px rgba(0, 0, 0, 0.4), 0px 5px 9px rgba(0, 0, 0, 0.4);
  }
