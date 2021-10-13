@@ -21,7 +21,7 @@
     margin: 21px 35px 39px;
     background: var(--card-bg);
     border-radius: 10px;
-    box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.1), 0px 3px 0px var(--btn-bg), inset 0px 1px 0px #fff, inset 0px -1px 0px rgba(0, 0, 0, 0.4), 0px 5px 9px rgba(0, 0, 0, 0.4);
+    box-shadow: 4px 4px 6px 0 rgb(0 0 0 / 10%), -4px -4px 6px rgb(255 255 255)
  }
 
  .contact-image-holder {
@@ -55,7 +55,7 @@
     margin: 15px 7px 29px;
     background: var(--search-bg);
     border-radius: 10px;
-    box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.1), 0px 2px 0px var(--btn-bg), inset 0px 1px 0px #fff, inset 0px -1px 0px rgba(0, 0, 0, 0.4), 0px 5px 9px rgba(0, 0, 0, 0.4);
+    box-shadow: 4px 4px 6px 0 rgb(0 0 0 / 10%), -4px -4px 6px rgb(255 255 255);
  }
  .contact-image-holder {
     margin-top: -30px;
@@ -90,21 +90,8 @@
 	font-size: 14px;
 	margin-bottom: -5.5px;
 }
-.bottom p::before,
-.bottom p::after {
-    display: inline-block;
-    content: "";
-    width: 7px;
-    height: 7px;
-    border-radius: 50%;
-    margin: 0px 5px;
-    background: rgba(0, 0, 0, 0.05);
-    box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.4);
-    border-bottom: 1px solid #fff;
-}
 
- .fbody div:hover {
-	-webkit-transform: translateY(-6px);
-	transform: translateY(-6px);
-	box-shadow: 0 26px 40px -24px rgba(0,0,0,0.3);
+.contact-holder:hover {
+    transform: scale(1.01);
+	box-shadow: 4px 4px 10px 0 rgb(0 0 0 / 10%), -4px -4px 10px rgb(255 255 255);
 }
