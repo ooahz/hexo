@@ -1,4 +1,0 @@
-/*page 顶部图高斯模糊*/
-#page-header.post-bg {
-    backdrop-filter: blur(20px) saturate(120%) !important;
-  }
