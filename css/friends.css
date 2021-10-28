@@ -20,7 +20,7 @@
         margin: 21px 35px 39px;
         background: var(--card-bg);
         border-radius: 10px;
-        box-shadow: 4px 4px 6px 0 rgb(0 0 0 / 10%), -4px -4px 6px rgb(255 255 255)
+        box-shadow: var(--card-bg);
     }
     .contact-image-holder {
         margin-top: -43px;
