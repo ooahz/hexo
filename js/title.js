@@ -7,7 +7,7 @@
          clearTimeout(titleTime);
      } else {
          $('[rel="icon"]').attr('href', "/img/favicon.ico");
-         document.title = '(〃'▽'〃)' + OriginTitle;
+         document.title = '(o゜▽゜)o☆' + OriginTitle;
          titleTime = setTimeout(function() {
              document.title = OriginTitle;
          }, 2000);
