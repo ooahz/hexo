@@ -9,8 +9,7 @@
 .readers-list li a:hover {
 -webkit-transform: translateY(-5px);
 transform: translateY(-5px);
-box-shadow: var(--card-hover-box-shadow);
-}--font-color
+box-shadow: var(--card-hover-box-shadow);}
 a{text-decoration:none!important;}
 p{width:100%;margin:0;}
 
